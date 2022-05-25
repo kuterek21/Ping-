@@ -18,5 +18,5 @@ foreach i {
 10.0.7.34
 10.0.7.35
 10.0.7.36
-} {ping $i source l0}
+} {ping $i source l0 repeat 100}
 
